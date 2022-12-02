@@ -1,0 +1,30 @@
+.brand-name{
+    color:rgb(37, 113, 180)
+}
+
+#header .animated {
+    animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+
+@-webkit-keyframes up-down{
+    0% { transform: translateY(10px);
+    }
+    100% { transform: translateY(-10px);
+    }
+}
+
+@keyframes up-down{
+    0% { transform: translateY(10px);
+    }
+    100% { transform: translateY(-10px);
+    }
+}
+body {
+
+    overflow-x: hidden; 
+  }
+
+ .navbar a:hover{
+    color: rgb(77, 77, 226) !important;
+    text-decoration: underline red;
+  }
